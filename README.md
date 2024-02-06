@@ -1,7 +1,9 @@
 simples exemplo de app full stack em dart
 
 
-[![simples exemplo de app full stack em dart]        
-(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] 
-(https://www.youtube.com/watch?v=Hc79sDi3f0) "Now in Android: 55")   
+
+
+
+
+[[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)](https://youtu.be/X0JHFyXZ6iY)
 
