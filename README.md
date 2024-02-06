@@ -1,4 +1,4 @@
-simples exemplo de app full stack em dart
+simples exemplo de projeto web fullstack em dart usando Shelf e AngularDart 2024
 
 
 
