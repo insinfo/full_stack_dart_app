@@ -1,0 +1,15 @@
+name: meu_proj_frontend
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  ngdart: ^8.0.0-dev.4
+  ngrouter: ^4.0.0-dev.3
+  ngforms: ^5.0.0-dev.3
+  sass_builder: ^2.2.1
+  http: any
+
+dev_dependencies:
+  build_runner: any
+  build_web_compilers: ^4.0.9 

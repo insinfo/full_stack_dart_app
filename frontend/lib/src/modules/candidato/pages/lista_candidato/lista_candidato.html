@@ -1,0 +1,18 @@
+<h1>Lista de Candidatos</h1>
+
+<div class="card">
+    <div class="card-body">
+       
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+            <tr *ngFor="let item of candidatos">
+                <td>{{item.nome}}</td>
+                <td>{{item.telefone}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>

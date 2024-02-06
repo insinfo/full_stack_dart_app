@@ -1,0 +1,20 @@
+<h1>Cadastro do Candidato</h1>
+
+<div class="card">
+    <div class="card-body">
+        <form (ngSubmit)="salvar" novalidate>
+            <div class="mb-3">
+                <label class="form-label">Nome:*</label>
+                <input [(ngModel)]="candidato.nome" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Telefone:</label>
+                <input [(ngModel)]="candidato.telefone" type="tel" class="form-control">
+            </div>
+            <div class="mb-3 text-center">                
+                <input type="submit" class="btn btn-primary" value="Salvar">
+            </div>
+        </form>
+    </div>
+
+</div>
