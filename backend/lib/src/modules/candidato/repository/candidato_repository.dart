@@ -6,8 +6,20 @@ class CandidatoRepository {
     return data;
   }
 
+  Future<Map<String, dynamic>?> getById(int id) async {
+    return await db.table('candidatos').where('id', '=', id).first();
+  }
+
   Future<void> cadastrar(Map<String, dynamic> data) async {
     data.remove('id');
     await db.table('candidatos').insert(data);
+  }
+
+  Future<void> atualizar(Map<String, dynamic> data) async {
+    await db.table('candidatos').where('id', '=', data['id']).update(data);
+  }
+
+  Future<void> remover(Map<String, dynamic> data) async {
+    await db.table('candidatos').where('id', '=', data['id']).delete();
   }
 }

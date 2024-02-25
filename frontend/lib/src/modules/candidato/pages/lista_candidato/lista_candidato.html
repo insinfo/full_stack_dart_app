@@ -2,15 +2,24 @@
 
 <div class="card">
     <div class="card-body">
-       
+
         <table class="table">
             <tr>
                 <th>Nome</th>
                 <th>Telefone</th>
+                <th>Ações</th>
             </tr>
             <tr *ngFor="let item of candidatos">
                 <td>{{item.nome}}</td>
                 <td>{{item.telefone}}</td>
+                <td>
+                    <button (click)="atualizar(item)" class="btn btn-link" type="button">
+                        Atualizar
+                    </button>
+                    <button (click)="remover(item)" class="btn btn-link" type="button">
+                        Remover
+                    </button>
+                </td>
             </tr>
         </table>
     </div>
